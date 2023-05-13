@@ -18,7 +18,7 @@ const ReactParticle = () => {
 
   return (
     <Particles
-            className='bg-black fixed'
+            className='bg-black fixed h-[100vh]'
             id="tsparticles"
             init={particlesInit}
             loaded={particlesLoaded}
