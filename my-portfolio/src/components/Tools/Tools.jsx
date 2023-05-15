@@ -1,19 +1,21 @@
 import React from 'react'
-import { Icon } from "react-3d-icons";
-import {notion, postman, bitbucket, visualstudiocode, github} from "react-3d-icons";
+import { BallCanvas } from "../canvas";
+import { technologies } from "../../content";
 
-const Tools = () => {
+
+const Stack = () => {
     return (
-        <div className='flex flex-col bg-black z-20'>Tools And Technologies 
-            <div className='grid grid-cols-6 text-center mx-auto'>
-                <Icon file={postman} color={"#FF6C37"} scale={10} style={{ height: "100px", width: "100px" }} spin={0.5} depth={10} />
-                <Icon file={notion} color={"#fff"} scale={10} style={{ height: "100px", width: "100px" }} spin={1} depth={10} />
-                <Icon file={bitbucket} color={"#0052CC"} scale={10} style={{ height: "100px", width: "100px" }} spin={1} depth={10} />
-                <Icon file={visualstudiocode} color={"#007ACC"} scale={10} style={{ height: "100px", width: "100px" }} spin={1} depth={10} />
-                <Icon file={github} color={"#181717"} scale={10} style={{ height: "100px", width: "100px" }} spin={1} depth={10} />
+            <div className='flex flex-col bg-black py-10 relative'>
+                <div className="text-3xl">Technologies</div>
+                <div className='flex flex-row flex-wrap justify-center gap-10 py-10 px-[60px]'>
+                    {technologies.map((technology) => (
+                        <div className='w-28 h-28' key={technology.name}>
+                        <BallCanvas icon={technology.icon} />
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
     )
 }
 
-export default Tools;
+export default Stack

@@ -11,7 +11,7 @@ const Experience = () => {
 
 
     return (
-        <div className='bg-black'>
+        <div className='bg-black relative'>
             <h2 className='text-3xl py-10'>My Experience</h2>
             <VerticalTimeline>
                 {/* <VerticalTimelineElement
