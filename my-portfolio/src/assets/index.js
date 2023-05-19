@@ -10,21 +10,33 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import github from './tech/github.png';
-import chakraui from './tech/chakraui.svg';
+import aws from './tech/aws.png';
+import bitbucket from './tech/bitbucket.png'
+import chakraui from './tech/chakraui.png';
+import java from './tech/java.png';
+import postman from './tech/postman.png';
+import python from './tech/python.png';
+import vscode from './tech/vscode.png';
 
 export {
-    github,
-    css,
-    docker,
-    figma,
-    git,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    tailwind,
-    chakraui
+  vscode,
+  python,
+  postman,
+  java,
+  aws,
+  bitbucket,
+  chakraui,
+  github,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
   };
   

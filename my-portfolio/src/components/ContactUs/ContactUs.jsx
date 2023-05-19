@@ -4,7 +4,6 @@ import emailjs from "@emailjs/browser";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "../canvas";
-import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
@@ -70,7 +69,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-black-100 p-8 rounded-2xl relative'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -80,7 +79,7 @@ const Contact = () => {
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8 relative'
         >
-          <label className='flex flex-col'>
+          <label className='flex flex-col text-left'>
             <span className='text-white font-medium mb-4'>Your Name</span>
             <input
               type='text'
@@ -88,10 +87,10 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col text-left'>
             <span className='text-white font-medium mb-4'>Your email</span>
             <input
               type='email'
@@ -99,10 +98,10 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
             />
           </label>
-          <label className='flex flex-col'>
+          <label className='flex flex-col text-left'>
             <span className='text-white font-medium mb-4'>Your Message</span>
             <textarea
               rows={7}
@@ -110,13 +109,13 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-[#C69749] font-bold shadow-md shadow-primary bg-[#282A3A]'
           >
             {loading ? "Sending..." : "Send"}
           </button>

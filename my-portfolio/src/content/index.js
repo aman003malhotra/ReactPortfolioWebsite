@@ -1,16 +1,23 @@
 import {
-    javascript,
-    html,
-    css,
-    reactjs,
-    redux,
-    tailwind,
-    nodejs,
-    mongodb,
-    git,
-    docker,
-    github,
-    chakraui,
+  vscode,
+  python,
+  postman,
+  java,
+  aws,
+  bitbucket,
+  chakraui,
+  github,
+  css,
+  docker,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
   } from "../assets";
 
 
@@ -29,8 +36,16 @@ const technologies = [
       icon: javascript,
     },
     {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "Redux Toolkit",
@@ -41,52 +56,52 @@ const technologies = [
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Chakra UI",
+      icon: chakraui,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "git",
-      icon: git,
-    },
-    {
-        name: "ChakraUI",
-        icon: docker,
-    },
-    {
-        name: "github",
-        icon: github,
-    }
+      name: "Java",
+      icon: java,
+    },    
   ];
 
-// const tools = [
-//   {
-//     name: "Postman",
-//     icon: postman,
-//   },
-//   {
-//     name: "Vs Code",
-//     icon: postman,
-//   },
-//   {
-//     name: "Postman",
-//     icon: postman,
-//   },
-//   {
-//     name: "Postman",
-//     icon: postman,
-//   }
-//   ,{
-//     name: "Postman",
-//     icon: postman,
-//   }
-//   ,{
-//     name: "Postman",
-//     icon: postman,
-//   }
-// ]
 
-export { technologies }
+const tools = [
+  {
+    name: "git",
+    icon: git,
+  },
+  {
+      name: "Docker",
+      icon: docker,
+  },
+  {
+      name: "github",
+      icon: github,
+  },
+  {
+    name: "bitbucket",
+    icon: bitbucket,
+  },
+  {
+    name: "VS Code",
+    icon: vscode,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+  {
+    name: "Amazon AWS",
+    icon: aws,
+  } 
+]
+export { technologies, tools }

@@ -3,8 +3,7 @@ import ReactParticle from '../ReactParticle/ReactParticle';
 import Menu from '../Menu/Menu';
 import Typed from "react-typed"
 import './Main.css';
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Sphere, MeshDistortMaterial } from "@react-three/drei";
+import { styles } from "../styles";
 
 const Main = () => {
 
@@ -13,19 +12,20 @@ const Main = () => {
                 <ReactParticle />
 
             
-            <Menu />
+            {/* <Menu /> */}
             <div className='grid grid-cols-2 justify-text-center items-center'>
                 <div className='text-white text-3xl col-span-1'>
-                    My Name is Aman Malhotra<br />
+                    I'm <span className="text-5xl text-bold">Aman Malhotra</span><br />
                     I'm a
                     <Typed
                         strings={[
                             "&nbsp;Full Stack Developer",
                             "&nbsp;Frontend Developer",
                             "&nbsp;Leet Coder",
+                            "&nbsp;Machine Learning Enthusiast",
                         ]}
-                        typeSpeed={350}
-                        backSpeed={200}
+                        typeSpeed={100}
+                        backSpeed={100}
                         loop
                     />
                 </div>

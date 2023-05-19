@@ -1,10 +1,12 @@
 import React from 'react'
+import { styles } from "../styles";
+
 
 const Projects = () => {
   return (
     <div className='flex flex-col bg-black py-10 relative '>
-        <div className='text-3xl'>
-            Project
+        <div className={styles.sectionHeadText}>
+            Portfolio
         </div>
         <div>
             <div className='grid grid-cols-2'>

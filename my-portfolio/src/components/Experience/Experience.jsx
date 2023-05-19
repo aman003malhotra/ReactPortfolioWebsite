@@ -6,13 +6,14 @@ import SchoolIcons from '../../assets/school.png';
 import CollegeIcons from '../../assets/College.png';
 import TeacherIcons from '../../assets/teacher.png';
 import CodingIcons from '../../assets/coding.png'
+import { styles } from "../styles";
 
 const Experience = () => {
 
 
     return (
         <div className='bg-black relative'>
-            <h2 className='text-3xl py-10'>My Experience</h2>
+            <h2 className={styles.sectionHeadText}>My Experience</h2>
             <VerticalTimeline>
                 {/* <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -31,7 +32,9 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="March 2023 - Present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
                     icon={<img src={CodingIcons} alt="myLogo" />}
                 >
                     <h3 className="vertical-timeline-element-title">SDE Intern</h3>
@@ -43,7 +46,9 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     date="Aug 2022 - Dec 2022"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
                     icon={<img src={TeacherIcons} alt="myLogo" />}
                 >
                     <h3 className="vertical-timeline-element-title">Mentor & Teacher</h3>
@@ -55,19 +60,23 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="July 2023"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
                 icon={<img src={CollegeIcons} alt="myLogo" />}
                 >
                     <h3 className="vertical-timeline-element-title">Completed Bachelors of Technology</h3>
                     <h4 className="vertical-timeline-element-subtitle">Guru Nanak Dev Engineering College</h4>
                     <p>
-                        Computer Science
+                        Majors in Computer Science
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="JULY 2019"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
                     icon={<img src={SchoolIcons} alt="myLogo" />}
                 >
                     <h3 className="vertical-timeline-element-title">Graduated High School</h3>
@@ -79,7 +88,9 @@ const Experience = () => {
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="July 2001"
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
                     icon={<img src={BabyIcon} alt="myLogo" />}
                 >
                     

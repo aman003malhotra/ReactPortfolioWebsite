@@ -1,16 +1,18 @@
 import './App.css';
 import Main from './components/Main/Main';
 import Experience from './components/Experience/Experience';
-import Stack from './components/Stacks/Stack';
 import Tools from './components/Tools/Tools'
 import Projects from './components/Projects/Projects'
 import ContactUs from './components/ContactUs/ContactUs';
+import About from './components/About/About';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
     <div className="App font-bold text-red-500">
       <Main />
-      {/* <Stack /> */}
+      <About />
+      <Skills />
       <Tools />
       <Experience />
       <Projects />
