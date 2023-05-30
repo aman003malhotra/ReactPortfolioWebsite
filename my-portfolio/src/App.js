@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects'
 import ContactUs from './components/ContactUs/ContactUs';
 import About from './components/About/About';
 import Skills from './components/Skills/Skills';
+import Menu from './components/Menu/Menu';
 
 function App() {
   return (

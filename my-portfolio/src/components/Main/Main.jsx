@@ -8,11 +8,11 @@ import { styles } from "../styles";
 const Main = () => {
 
     return (
-        <div className="bg-black w-100 h-[100vh]">
+        <div className="bg-black w-100 h-[88vh]">
                 <ReactParticle />
 
             
-            {/* <Menu /> */}
+            <Menu />
             <div className='grid grid-cols-2 justify-text-center items-center'>
                 <div className='text-white text-3xl col-span-1'>
                     I'm <span className="text-5xl text-bold">Aman Malhotra</span><br />
@@ -30,7 +30,7 @@ const Main = () => {
                     />
                 </div>
                 <div className="w-[100%] flex justify-center items-center">
-                    <img src="pp.png" alt="myPicture" className="img relative" />
+                    <img src="pp.png" alt="myPicture" className="img relative rounded-full"  />
                 </div>
             </div>
         </div >

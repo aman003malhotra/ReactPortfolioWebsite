@@ -13,27 +13,28 @@ const Projects = () => {
                 <div className='col-span-1'>Upwork Clone</div>
                 <div>
                     <img 
-                        src="" 
+                        src="https://www.projectmanager.com/wp-content/uploads/2022/09/IT-Project-Management.png" 
                         alt="" 
                         className='col-span-1'
+                        
                     />
                 </div>
             </div>
             <div className='grid grid-cols-2'>
                 <div>
+                    <div className='col-span-1'>Smart Attendance System</div>
                     <img 
-                        src="" 
+                        src="https://www.projectmanager.com/wp-content/uploads/2022/09/IT-Project-Management.png" 
                         alt="" 
                         className='col-span-1'
                     />
                 </div>
-                <div className='col-span-1'>Smart Attendance System</div>
             </div>
             <div className='grid grid-cols-2'>
                 <div className='col-span-1'>Ecommerce Webiste</div>
                 <div>
                     <img 
-                        src="" 
+                        src="https://www.projectmanager.com/wp-content/uploads/2022/09/IT-Project-Management.png" 
                         alt="" 
                         className='col-span-1'
                     />
