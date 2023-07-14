@@ -4,7 +4,7 @@ import { styles } from "../styles";
 
 const About = () => {
   return (
-    <div className=' bg-black relative flex flex-col px-[100px] py-[100px]'>
+    <div className=' bg-black relative flex flex-col px-[100px] py-[100px]' id="about">
         <h1 className={styles.sectionHeadText}>About Me</h1>
         <div className='grid grid-cols-2 mt-10 justify-items-center'>
             <Tilt>

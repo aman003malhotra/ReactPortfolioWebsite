@@ -24,10 +24,6 @@ import {
 
 const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
       name: "CSS 3",
       icon: css,
     },
@@ -66,7 +62,27 @@ const technologies = [
     {
       name: "Java",
       icon: java,
-    },    
+    },  
+    {
+      name: "git",
+      icon: git,
+    },
+    {
+        name: "Docker",
+        icon: docker,
+    },
+    {
+        name: "github",
+        icon: github,
+    },
+    {
+      name: "Figma",
+      icon: figma,
+    },
+    {
+      name: "Amazon AWS",
+      icon: aws,
+    }   
   ];
 
 
@@ -82,10 +98,6 @@ const tools = [
   {
       name: "github",
       icon: github,
-  },
-  {
-    name: "bitbucket",
-    icon: bitbucket,
   },
   {
     name: "VS Code",

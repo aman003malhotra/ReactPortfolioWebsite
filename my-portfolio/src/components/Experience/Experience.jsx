@@ -12,7 +12,7 @@ const Experience = () => {
 
 
     return (
-        <div className='bg-black relative'>
+        <div className='bg-black relative' id="experience">
             <h2 className={styles.sectionHeadText}>My Experience</h2>
             <VerticalTimeline>
                 {/* <VerticalTimelineElement

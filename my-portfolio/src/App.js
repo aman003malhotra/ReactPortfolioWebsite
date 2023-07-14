@@ -14,7 +14,7 @@ function App() {
       <Main />
       <About />
       <Skills />
-      <Tools />
+      {/* <Tools /> */}
       <Experience />
       <Projects />
       <ContactUs />
