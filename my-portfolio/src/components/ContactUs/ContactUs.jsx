@@ -32,8 +32,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_x2sywop",
-        "template_1hne6o8",
+        process.env.REACT_APP_EMAILJS_SERVICE_ID,
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: "Aman Malhotra",
@@ -41,7 +41,7 @@ const Contact = () => {
           to_email: "aman003malhotra@gmail.com",
           message: form.message,
         },
-        "4AzyKICv4j5mzampu"
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
       )
       .then(
         () => {
@@ -65,7 +65,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden bg-black px-[100px]`}
+      className={`flex lg:flex-row flex-col-reverse gap-10 overflow-hidden bg-black lg:px-[100px] px-5`}
       id="contact"
     >
       <motion.div
@@ -88,7 +88,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col text-left'>
@@ -99,7 +99,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col text-left'>
@@ -110,7 +110,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder='What you want to say?'
-              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-gray-800 rounded-lg outline-none border-none font-medium'
+              className='bg-[#282A3A] py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
