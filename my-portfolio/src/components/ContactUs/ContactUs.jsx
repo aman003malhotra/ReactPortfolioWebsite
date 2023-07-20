@@ -64,6 +64,7 @@ const Contact = () => {
   };
 
   return (
+    <>
     <div
       className={`flex lg:flex-row flex-col-reverse gap-10 overflow-hidden bg-black lg:px-[100px] px-5`}
       id="contact"
@@ -129,7 +130,34 @@ const Contact = () => {
       >
         <EarthCanvas />
       </motion.div>
+      
     </div>
+    <div className="bg-black relative flex flex-col text-white text-2xl justify-center items-center">
+        <div>
+          &#169; Copyright 2023
+        </div>
+        <div className="flex flex-row gap-x-5 justify-center items-center">
+            <a target="_blank" href="https://github.com/aman003malhotra">
+              <img className="h-[20px] w-[20px]" src="github.png" alt="github" />
+            </a>
+            <a  target="_blank" href="https://twitter.com/Aman003Malhotra">
+              <img className="h-[20px] w-[20px]" src="twitter.png" alt="twitter" />
+            </a>
+            <a  target="_blank" href=" https://wa.me/qr/ZUTLJK6UEBG2H1">
+              <img className="h-[20px] w-[20px]" src="whatsapp.png" alt="whatsapp" />
+            </a>
+            <a  target="_blank" href="https://www.linkedin.com/in/aman-003-malhotra/">
+              <img className="h-[20px] w-[20px]" src="linkedin.png" alt="linkedin" />
+            </a>
+            <a  target="_blank" href="mailto:aman003malhotra@gmail.com">
+              <img className="h-[20px] w-[20px]" src="gmail.png" alt="gmail" />
+            </a>
+            <a  target="_blank" href="https://medium.com/@aman003malhotra">
+              <img className="h-[20px] w-[20px]" src="medium.png" alt="medium" />
+            </a>
+          </div>
+      </div>
+    </>
   );
 };
 

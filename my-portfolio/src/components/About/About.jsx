@@ -12,7 +12,7 @@ const About = () => {
                     <img src="./profile2.jpeg" alt=""/>
                 </div>
             </Tilt>
-            <div className='col-span-1 text-justify text-[#C69749] text-2xl max-lg:mt-9'>
+            <div className='col-span-1 text-justify text-[#C69749] text-2xl max-lg:mt-9 max-lg:text-left max-lg:text-base'>
                 Hi, My name is Aman Malhotra,I am a recent graduate from Guru Nanak Dev Engineering college in Ludhiana. I majored in Computer Science. Currently I am working as an SDE Intern @machinemode.ai, Which is a Startup which revolutionizes how UPSC students Prepare through AI.
                 My work There includes handling the front-end design and developing of the Main software which will include building the PDF Annotation React App. I have also worked as a Freelancer with EverAssignment as a MERN Stack Developer. 
                 I love teaching and have been a tutor with CodeYoung in teaching students Web Development. I like building project, some of the projects that i have build includes PDF Annotation React App, Upwork Clone, Smart Attendance System, Ecommerce Website and many more.
