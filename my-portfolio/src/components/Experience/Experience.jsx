@@ -17,11 +17,10 @@ const Experience = () => {
             <VerticalTimeline>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="August 2023 - present"
-                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                // icon={<WorkIcon />}
+                    contentStyle={{ background: '#282A3A', color: '#C69749' }}
+                    contentArrowStyle={{ borderRight: '7px solid #735F32' }}
+                    iconStyle={{ background: '#282A3A', color: 'white' }}
+                    icon={<img src={CodingIcons} alt="myLogo" />}
                 >
                     <h3 className="vertical-timeline-element-title">Mastersunion</h3>
                     <h4 className="vertical-timeline-element-subtitle">Gurgaon</h4>
