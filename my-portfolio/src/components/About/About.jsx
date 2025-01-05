@@ -13,10 +13,16 @@ const About = () => {
                 </div>
             </Tilt>
             <div className='col-span-1 text-justify text-[#C69749] text-2xl max-lg:mt-9 max-lg:text-left max-lg:text-base'>
-                Hi, My name is Aman Malhotra,I am a recent graduate from Guru Nanak Dev Engineering college in Ludhiana. I majored in Computer Science. Currently I am working as an SDE Intern @machinemode.ai, Which is a Startup which revolutionizes how UPSC students Prepare through AI.
-                My work There includes handling the front-end design and developing of the Main software which will include building the PDF Annotation React App. I have also worked as a Freelancer with EverAssignment as a MERN Stack Developer. 
-                I love teaching and have been a tutor with CodeYoung in teaching students Web Development. I like building project, some of the projects that i have build includes PDF Annotation React App, Upwork Clone, Smart Attendance System, Ecommerce Website and many more.
-                Wanna Know more about me Please Continue seeing below.   
+                Hi, my name is Aman Malhotra, and I am a recent graduate from Guru Nanak Dev Engineering College, Ludhiana, where I majored in Computer Science. 
+              I previously worked as an SDE Intern at machinemode.ai, a startup that leverages AI to help UPSC students prepare for exams. During my time there, 
+              I focused on front-end design and development, including building the PDF Annotation React App. I stopped working with machinemode.ai in July 2023
+              and am currently working as a Full Stack Developer at MastersUnion since August 2023. At MastersUnion, I have been developing several key internal 
+              tools and systems, including an expense management software for handling millions of dollars in transactions, an employee intranet for managing 
+              various internal services, and an ads revenue management system using CSV uploads. In addition, I’ve introduced Amazon RDS, Amplify, and Astro 
+              framework to the organization to improve database reliability, deployment efficiency, and SEO practices. Previously, I’ve also worked as a Freelancer 
+              with EverAssignment as a MERN Stack Developer and taught Web Development to students at CodeYoung. I am passionate about building impactful projects, 
+              and some of the personal projects I’ve worked on include a PDF Annotation React App, an Upwork Clone, a Smart Attendance System, and an Ecommerce 
+              Website. I’m always eager to learn, collaborate, and contribute to projects that drive innovation. 
             </div>
         </div>
     </div>
