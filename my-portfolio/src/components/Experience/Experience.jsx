@@ -15,23 +15,23 @@ const Experience = () => {
         <div className='bg-black relative' id="experience">
             <h2 className={styles.sectionHeadText}>My Experience</h2>
             <VerticalTimeline>
-                {/* <VerticalTimelineElement
+                <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="2011 - present"
+                    date="August 2023 - present"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 // icon={<WorkIcon />}
                 >
-                    <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                    <h3 className="vertical-timeline-element-title">Mastersunion</h3>
+                    <h4 className="vertical-timeline-element-subtitle">Gurgaon</h4>
                     <p>
-                        Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                        Full Stack Developer
                     </p>
-                </VerticalTimelineElement> */}
+                </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="March 2023 - Present"
+                    date="March 2023 - July 2023"
                     contentStyle={{ background: '#282A3A', color: '#C69749' }}
                     contentArrowStyle={{ borderRight: '7px solid #735F32' }}
                     iconStyle={{ background: '#282A3A', color: 'white' }}
